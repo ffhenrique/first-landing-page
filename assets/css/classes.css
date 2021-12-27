@@ -1,0 +1,38 @@
+/*CSS classes*/
+
+
+/*Fundo principal*/
+.main-bg {
+    background-image: url("..//img/main-bg.svg");
+    background-size: cover;
+    background-position: center center;
+    color: var(--white-color);
+  }
+
+  /*Fundo branco*/
+  .white-bg {
+    background: var(--white-color);
+    color: var(--primary-color);
+  }
+
+  /*Conteudo principal*/
+  .main-content {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 10rem var(--gap);
+  }
+
+  /*Secao*/
+  .section {
+    min-height: 100vh;
+  }
+  
+  
+  .menu-spacing {
+    height: 65px;
+  }
+  
+  body .full-width {
+    width: 100%;
+    flex: 1 1 100%;
+  }

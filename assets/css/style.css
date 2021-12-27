@@ -195,6 +195,10 @@
           grid-template-columns: 1fr;
       }
       
+      .contact-img {
+          display: block;
+      }
+      
     .section h2{
       font-size: 4rem;
     }
